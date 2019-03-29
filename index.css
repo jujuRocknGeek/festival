@@ -1,0 +1,264 @@
+@font-face {
+    font-family: 'cuprumregular';
+    src: url('font/Cuprum-Regular-webfont.woff') format('woff'),
+         url('font/Cuprum-Regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.article{
+    border: 1px solid rgba(128, 128, 128, 0.3);
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+#admin, #contactFoot, #legal, #social{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+#bodyPage{
+    background: white;
+}
+#bodyPrinc, #sectionPart{
+    background: #d6d6d6;
+}
+
+#contenu
+{
+	width: 100%;
+    height:1210px;
+	margin: auto;
+	border: none;
+}
+#sectionPart{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#contact{
+    height: 30px;
+    font-family: 'cuprumregular';
+    background: #73bcb7;
+    color: white;
+}
+#footerPart{
+    background: #f31a22;
+    height: 205px;
+}
+.frameDashed{
+    border-bottom: 1px dashed #ffffff;
+    font-family: 'cuprumregular';
+    letter-spacing: 3px;
+    font-size: 14px;
+}
+.footerBlock{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: baseline;
+    padding-top: 30px;
+}
+#phoneAdress{
+    display: flex;
+    flex-direction: row;
+    background: #73bcb7;
+    justify-content: left;
+    height: 30px;
+}
+#spancontact1{
+    display: flex;
+    flex-direction: row;
+    font-size: 11px;
+    letter-spacing: 1px;
+    align-items: center;
+    justify-content: left;
+}
+#phoneIcon{
+    width: 15px;
+    height: 15px;
+}
+#positionIcon{
+    width: 15px;
+    height: 15px;
+}
+#searchBarIcon{
+    width: 150px;
+    height: 25px;
+}
+#searchBar{
+    background: #73bcb7;
+    height: 30px;
+}
+
+#slide{
+    width: 100%;
+    height: 450px;
+}
+.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+    margin-left:0;
+    margin-right:0;
+}
+#logo{
+    width: 250px;
+    height: 110px;
+    margin-left: 30px;
+}
+#headTop{
+    background: rgba(115, 188, 183, 0.5);
+    position: absolute;
+    top: 30px;
+    right:0px;
+}
+
+#titlepic, #titlepic2, #titlepic3{
+    position: absolute;
+    top: 200px;
+    left: 40% ;
+    width: 220px;
+    height: 130px;
+    background: rgba(2, 2, 2, 0.6);
+    text-align: center;
+    font-family: 'cuprumregular';
+    color: white;
+}
+#menuhamburger{
+    font-family: 'cuprumregular';
+    font-color: white;
+}
+#menu1 a{
+    color: white;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+#menu1 a:hover{
+    color: black;
+    font-size: 13px;
+}
+#menuPrinc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+}
+#logoIcon{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 120px;
+}
+#carouselControl{
+    height: 450px;
+}
+#d-block, #d-block1, #d-block2{
+    height: 450px;
+}
+#menuText{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'cuprumregular';
+    font-size: 15px;
+
+}
+
+
+@media screen and (max-width: 1200px){
+    #phoneAdress{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background: #73bcb7;
+        height: 30px;
+    }
+    #searchBar{
+        display: flex;
+        background: #73bcb7;
+        height: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+    #slide{
+        background: none;
+    }
+    #headTop{
+        background: rgba(115, 188, 183, 0.5);
+        position: absolute;
+        top: 30px;
+        right:0px;
+    }
+
+    #menuPrinc{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 120px;
+    }
+    #logoIcon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 120px;
+    }
+    #titlepic, #titlepic2, #titlepic3{
+        position: absolute;
+        top: 200px;
+        left: 40% ;
+        width: 220px;
+        height: 130px;
+        background: rgba(2, 2, 2, 0.6);
+        text-align: center;
+        font-family: 'cuprumregular';
+    }
+    
+}
+
+@media screen and (max-width: 960px){
+    #phoneAdress{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background: #73bcb7;
+        height: 30px;
+    }
+    #searchBar{
+        display: flex;
+        background: #73bcb7;
+        height: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+    #slide{
+        background: none;
+    }
+    #headTop{
+        background: rgba(115, 188, 183, 0.5);
+        position: absolute;
+        top: 60px;
+        right:0px;
+    }
+
+    #menuPrinc{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+    }
+    #logoIcon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 120px;
+    }
+    #carouselControl{
+        display: none;
+    }
+    
+}
+
+
