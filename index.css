@@ -5,10 +5,35 @@
     font-weight: normal;
     font-style: normal;
 }
+.align{
+    float: left;
+}
+.alignText{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+}
+.alignTextLeft{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    width: 50%;
+}
+.alignTextRight{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 50%;
+}
 .article{
     border: 1px solid rgba(128, 128, 128, 0.3);
     margin-bottom: 5px;
     margin-top: 20px;
+    height: 1150px;
+}
+.articleText{
+    padding: 10px;
+    font-family: 'cuprumregular';
 }
 #admin, #contactFoot, #legal, #social{
     display: flex;
@@ -23,7 +48,18 @@
 #bodyPrinc, #sectionPart{
     background: #d6d6d6;
 }
-
+.bold{
+    font-weight: bold;
+}
+#btnRes{
+    border:none;
+	padding:6px 0 6px 0;
+	border-radius:2px;
+	box-shadow:2px 2px 6px #999;
+	font:bold 13px;
+    color:white;
+    width: 100px;
+}
 #contenu
 {
 	width: 100%;
@@ -31,15 +67,28 @@
 	margin: auto;
 	border: none;
 }
+.detailText{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
 #sectionPart{
     margin-top: 50px;
     margin-bottom: 50px;
+    background: white;
 }
 #contact{
     height: 30px;
     font-family: 'cuprumregular';
     background: #73bcb7;
     color: white;
+}
+#filmsAuteurs{
+    border: 1px solid rgba(128, 128, 128, 0.3);
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 10px;
+    font-family: 'cuprumregular';
 }
 #footerPart{
     background: #f31a22;
@@ -81,6 +130,22 @@
     width: 15px;
     height: 15px;
 }
+#presentation{
+    border: 1px solid rgba(128, 128, 128, 0.3);
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family: 'cuprumregular';
+}
+.programmation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border: 1px solid rgba(128, 128, 128, 0.3);
+    font-family: 'cuprumregular';
+}
 #searchBarIcon{
     width: 150px;
     height: 25px;
@@ -89,7 +154,13 @@
     background: #73bcb7;
     height: 30px;
 }
-
+#selection{
+    border: 1px solid rgba(128, 128, 128, 0.3);
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 10px;
+    font-family: 'cuprumregular';
+}
 #slide{
     width: 100%;
     height: 450px;
@@ -110,6 +181,9 @@
     position: absolute;
     top: 30px;
     right:0px;
+}
+#headTopActu{
+    background: rgba(115, 188, 183, 0.5);
 }
 
 #titlepic, #titlepic2, #titlepic3{
@@ -162,9 +236,25 @@
     color: white;
     font-family: 'cuprumregular';
     font-size: 15px;
-
 }
 
+#picArt{
+    width: 335px;
+    padding: 10px;
+}
+#picPres{
+    width: 430px;
+    height: 200px;
+    margin: 10px 10px 10px 0px;
+}
+.picProg{
+    width: 230px;
+    padding: auto;
+}
+.picSel{
+    width: 125px;
+    padding: 10px;
+}
 
 @media screen and (max-width: 1200px){
     #phoneAdress{
