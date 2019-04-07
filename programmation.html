@@ -15,7 +15,7 @@
 <body id="bodyPrinc">
     <div id="contact" class="container-fluid">
         <div class="row">
-            <div id="phoneAdress" class="col-6 col-lg-10">
+            <div id="phoneAdress" class="col-12 col-lg-10">
                 <span id="spancontact1">
                 <i class="fas fa-phone"></i>
                 <img src="img/phoneIcon.png" id="phoneIcon">
@@ -26,47 +26,44 @@
                 Parc Monceau Paris 75008
                 </span>
             </div>
-            <div id="searchBar" class="col-6 col-lg-2">
+            <div id="searchBar" class="col-12 col-lg-2">
                 <img src="img/searchBar.png" id="searchBarIcon">
             </div>
         </div>
     </div>
  
-
-
-    <div id="headTopActu" class="container-fluid">
-        <div class="row no-gutter">
-                <div id="logoIcon" class="col-lg-6">
-                        <a href="index.html" class="nav-link"><img src="img/festivallogo.png" id="logo"></a>
-                </div>
-                <div id="menuPrinc" class="col-lg-6">
-                    <nav class="navbar navbar-expand-xl ">
-                        <button class="navbar-toggler" data-toggle="collapse" data-target="#menuhamburger">            
-                            <span class="navbar-toggler-icon" id="menuText"><img src="img/hamIcon.png" width="30px" heigth="30px">MENU</span> 
-                        </button>                              
-                        <div class="collapse navbar-collapse" id="menuhamburger">
-                            <ul id="menu1" class="navbar-nav m-auto"> 
-                                <li class="nav-item active"> 
-                                    <a href="actualite.html"  class="nav-link">ACTUALITE</a> 
-                                </li> 
-                                <li class="nav-item"> 
-                                    <a href="presentation.html"  class="nav-link">PRESENTATION</a> 
-                                </li> 
-                                <li class="nav-item"> 
-                                    <a href="programmation.html"  class="nav-link">PROGRAMMATION</a> 
-                                </li> 
-                                <li class="nav-item"> 
-                                    <a href="reservation.html" class="nav-link">RESERVATION</a> 
-                                </li> 
-                                <li class="nav-item"> 
-                                    <a href="contact.html"  class="nav-link">INFOS/CONTACT</a> 
-                                </li> 
-                            </ul> 
-                        </div> 
-                    </nav> 
-                </div>
+    <div id="menuPrinc" class="container-fluid">
+            <div class="row no-gutter" style="width: 100%">
+                <nav class="navbar navbar-expand-xl navbar-light light-blue lighten-4" style="width: 100%">
+        
+                    <a class="navbar-brand" href="index.html"><img src="img/festivallogo.png" id="logo"></a>
+              
+                    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent1">            
+                        <span id="menuText"><img src="img/hamIcon.png" width="30px" heigth="30px">MENU</span> 
+                    </button>
+        
+                    <div class="collapse navbar-collapse positionNav" id="navbarSupportedContent1">
+                    <ul class="navbar-nav mr-auto" id="positionNav">
+                        <li class="nav-item active"> 
+                            <a href="actualite.html"  class="nav-link">ACTUALITE</a> 
+                        </li> 
+                        <li class="nav-item"> 
+                            <a href="presentation.html"  class="nav-link">PRESENTATION</a> 
+                        </li> 
+                        <li class="nav-item"> 
+                            <a href="programmation.html"  class="nav-link">PROGRAMMATION</a> 
+                        </li> 
+                        <li class="nav-item"> 
+                            <a href="reservation.html" class="nav-link">RESERVATION</a> 
+                        </li> 
+                        <li class="nav-item"> 
+                            <a href="contact.html"  class="nav-link">INFOS/CONTACT</a> 
+                        </li> 
+                    </ul>
+                    </div>
+                </nav>
+            </div>
         </div>
-    </div>
 
 
 <div id="sectionPart" class="container"> 
@@ -74,32 +71,32 @@
     
             <div class="col-12 col-sm-12 col-lg-6 col-xl-3">
                 <div class="programmation"><p class="articleText bold">LUNDI 5 AOÛT<br><br></p>
-                    <button id="btnRes" type="button" class="btn btn-info">RESERVEZ</button><br>
+                    <button id="btnRes" type="button" class="btn btn-info"><a href="reservation.html" id="btnLink">RESERVEZ</a></button><br>
                     <div class="alignText">
                         <span class="alignTextLeft"><p class="articleText bold">Les Demoiselles <br>de rochefort</p></span>
                         <span class="alignTextRight"><p class="articleText bold">18h</p></span>
                     </div>
-                        <img src="ann50-60/demoiselles.jpg" alt="Les demoiselles de Rochefort affiche" class="picProg">
+                        <img src="ann50-60/demoiselles.jpg" alt="Les demoiselles de Rochefort affiche" class="picProg img-fluid max-width: 100%">
                     <div class="alignText detailText">
-                        <span><p class="articleText"><a href="reservation.html">Détails...</a></p></span>
+                        <span><p class="articleText"><a href="film1.html">Détails...</a></p></span>
                     </div>
 
                     <div class="alignText">
                         <span class="alignTextLeft"><p class="articleText bold">Et Dieu<br>créa la Femme</p></span>
                         <span class="alignTextRight"><p class="articleText bold">20h</p></span>
                     </div>
-                        <img src="ann50-60/etdieu.jpg" alt="et dieu créa la femme affiche" class="picProg">
+                        <img src="ann50-60/etdieu.jpg" alt="et dieu créa la femme affiche" class="picProg img-fluid max-width: 100%">
                     <div class="alignText detailText">
-                        <span><p class="articleText"><a href="reservation.html">Détails...</a></p></span>
+                        <span><p class="articleText"><a href="xpage">Détails...</a></p></span>
                     </div>
 
                     <div class="alignText">
                         <span class="alignTextLeft"><p class="articleText bold">Pierrot le fou</p></span>
                         <span class="alignTextRight"><p class="articleText bold">22h</p></span>
                     </div>
-                        <img src="ann50-60/Pierrot_le_fou.jpg" alt="Pierrot le fou affiche" class="picProg">
+                        <img src="ann50-60/Pierrot_le_fou.jpg" alt="Pierrot le fou affiche" class="picProg img-fluid max-width: 100%">
                     <div class="alignText detailText">
-                        <span><p class="articleText"><a href="reservation.html">Détails...</a></p></span>
+                        <span><p class="articleText"><a href="xpage">Détails...</a></p></span>
                     </div>
 
                 </div>
@@ -107,32 +104,32 @@
 
             <div class="col-12 col-sm-12 col-lg-6 col-xl-3">
                 <div class="programmation"><p class="articleText bold">MARDI 6 AOÛT<br><br></p>
-                    <button id="btnRes" type="button" class="btn btn-info">RESERVEZ</button><br>
+                    <button id="btnRes" type="button" class="btn btn-info"><a href="reservation.html" id="btnLink2">RESERVEZ</a></button><br>
                     <div class="alignText">
                         <span class="alignTextLeft"><p class="articleText bold">L'aventure<br>c'est l'aventure</p></span>
                         <span class="alignTextRight"><p class="articleText bold">18h</p></span>
                     </div>
-                        <img src="ann70-80/aventure.jpg" alt="L'aventure c'est l'aventure affiche" class="picProg">
+                        <img src="ann70-80/aventure.jpg" alt="L'aventure c'est l'aventure affiche" class="picProg img-fluid max-width: 100%">
                     <div class="alignText detailText">
-                        <span><p class="articleText"><a href="reservation.html">Détails...</a></p></span>
+                        <span><p class="articleText"><a href="xpage">Détails...</a></p></span>
                     </div>
 
                     <div class="alignText">
                         <span class="alignTextLeft"><p class="articleText bold">Les Valseuses</p></span>
                         <span class="alignTextRight"><p class="articleText bold">20h</p></span>
                     </div>
-                        <img src="ann70-80/les_Valseuses.jpg" alt="les Valseuses affiche" class="picProg">
+                        <img src="ann70-80/les_Valseuses.jpg" alt="les Valseuses affiche" class="picProg img-fluid max-width: 100%">
                     <div class="alignText detailText">
-                        <span><p class="articleText"><a href="reservation.html">Détails...</a></p></span>
+                        <span><p class="articleText"><a href="xpage">Détails...</a></p></span>
                     </div>
 
                     <div class="alignText">
                         <span class="alignTextLeft"><p class="articleText bold">Tchao Pantin</p></span>
                         <span class="alignTextRight"><p class="articleText bold">22h</p></span>
                     </div>
-                        <img src="ann70-80/Tchao_Pantin.jpg" alt="Tchao Pantin affiche" class="picProg">
+                        <img src="ann70-80/Tchao_Pantin.jpg" alt="Tchao Pantin affiche" class="picProg img-fluid max-width: 100%">
                     <div class="alignText detailText">
-                        <span><p class="articleText"><a href="reservation.html">Détails...</a></p></span>
+                        <span><p class="articleText"><a href="xpage">Détails...</a></p></span>
                     </div>
 
                 </div>
@@ -140,32 +137,32 @@
 
             <div class="col-12 col-sm-12 col-lg-6 col-xl-3">
                 <div class="programmation"><p class="articleText bold">MERCREDI 7 AOÛT<br><br></p>
-                    <button id="btnRes" type="button" class="btn btn-info">RESERVEZ</button><br>
+                    <button id="btnRes" type="button" class="btn btn-info"><a href="reservation.html" id="btnLink3">RESERVEZ</a></button><br>
                     <div class="alignText">
                         <span class="alignTextLeft"><p class="articleText bold">Elisa</p></span>
                         <span class="alignTextRight"><p class="articleText bold">18h</p></span>
                     </div>
-                        <img src="ann90-00/elisa.jpg" alt="Elisa affiche" class="picProg">
+                        <img src="ann90-00/elisa.jpg" alt="Elisa affiche" class="picProg img-fluid max-width: 100%">
                     <div class="alignText detailText">
-                        <span><p class="articleText"><a href="reservation.html">Détails...</a></p></span>
+                        <span><p class="articleText"><a href="xpage">Détails...</a></p></span>
                     </div>
 
                     <div class="alignText">
                         <span class="alignTextLeft"><p class="articleText bold">Germinal</p></span>
                         <span class="alignTextRight"><p class="articleText bold">20h</p></span>
                     </div>
-                        <img src="ann90-00/germinal.jpg" alt="Germinal affiche" class="picProg">
+                        <img src="ann90-00/germinal.jpg" alt="Germinal affiche" class="picProg img-fluid max-width: 100%">
                     <div class="alignText detailText">
-                        <span><p class="articleText"><a href="reservation.html">Détails...</a></p></span>
+                        <span><p class="articleText"><a href="xpage">Détails...</a></p></span>
                     </div>
 
                     <div class="alignText">
                         <span class="alignTextLeft"><p class="articleText bold">Je vais bien<br>ne t'en fais pas</p></span>
                         <span class="alignTextRight"><p class="articleText bold">22h</p></span>
                     </div>
-                        <img src="ann90-00/jevaisbien.jpg" alt="je vais bien affiche" class="picProg">
+                        <img src="ann90-00/jevaisbien.jpg" alt="je vais bien affiche" class="picProg img-fluid max-width: 100%">
                     <div class="alignText detailText">
-                        <span><p class="articleText"><a href="reservation.html">Détails...</a></p></span>
+                        <span><p class="articleText"><a href="xpage">Détails...</a></p></span>
                     </div>
 
                 </div>
@@ -173,32 +170,32 @@
 
             <div class="col-12 col-sm-12 col-lg-6 col-xl-3">
                 <div class="programmation"><p class="articleText bold">JEUDI 8 AOÛT<br><br></p>
-                    <button id="btnRes" type="button" class="btn btn-info">RESERVEZ</button><br>
+                    <button id="btnRes" type="button" class="btn btn-info"><a href="reservation.html" id="btnLink4">RESERVEZ</a></button><br>
                     <div class="alignText">
                         <span class="alignTextLeft"><p class="articleText bold">Polisse</p></span>
                         <span class="alignTextRight"><p class="articleText bold">18h</p></span>
                     </div>
-                        <img src="ann2010/polisse.jpg" alt="Polisse affiche" class="picProg">
+                        <img src="ann2010/polisse.jpg" alt="Polisse affiche" class="picProg img-fluid max-width: 100%">
                     <div class="alignText detailText">
-                        <span><p class="articleText"><a href="reservation.html">Détails...</a></p></span>
+                        <span><p class="articleText"><a href="xpage">Détails...</a></p></span>
                     </div>
 
                     <div class="alignText">
                         <span class="alignTextLeft"><p class="articleText bold">Réalité</p></span>
                         <span class="alignTextRight"><p class="articleText bold">20h</p></span>
                     </div>
-                        <img src="ann2010/realite.jpg" alt="réalité affiche" class="picProg">
+                        <img src="ann2010/realite.jpg" alt="réalité affiche" class="picProg img-fluid max-width: 100%">
                     <div class="alignText detailText">
-                        <span><p class="articleText"><a href="reservation.html">Détails...</a></p></span>
+                        <span><p class="articleText"><a href="xpage">Détails...</a></p></span>
                     </div>
 
                     <div class="alignText">
                         <span class="alignTextLeft"><p class="articleText bold">Yves Saint Laurent</p></span>
                         <span class="alignTextRight"><p class="articleText bold">22h</p></span>
                     </div>
-                        <img src="ann2010/saintlau.jpg" alt="Yves Saint Laurent affiche" class="picProg">
+                        <img src="ann2010/saintlau.jpg" alt="Yves Saint Laurent affiche" class="picProg img-fluid max-width: 100%">
                     <div class="alignText detailText">
-                        <span><p class="articleText"><a href="reservation.html">Détails...</a></p></span>
+                        <span><p class="articleText"><a href="xpage">Détails...</a></p></span>
                     </div>
 
                 </div>
