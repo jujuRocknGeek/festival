@@ -5,12 +5,7 @@
     font-weight: normal;
     font-style: normal;
 }
-#btnLink, #btnLink2, #btnLink3, #btnLink4{
-    font-family: 'cuprumregular';
-    font-size: 15px;
-    color: white;
-    text-decoration: none; 
-}
+
 .align{
     float: left;
 }
@@ -41,12 +36,21 @@
     padding: 10px;
     font-family: 'cuprumregular';
 }
+
 #admin, #contactFoot, #legal, #social{
     display: flex;
+    height: 150px;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     color: white;
+    padding: 20px;
+}
+#btnLink, #btnLink2, #btnLink3, #btnLink4{
+    font-family: 'cuprumregular';
+    font-size: 15px;
+    color: white;
+    text-decoration: none; 
 }
 #bodyPage{
     background: white;
@@ -66,6 +70,18 @@
     color:white;
     width: 100px;
 }
+
+#borderBtn{
+    border: none;
+}
+
+#contact{
+    height: 30px;
+    font-family: 'cuprumregular';
+    background: #73bcb7;
+    color: white;
+}
+
 #contenu
 {
 	width: 100%;
@@ -73,6 +89,15 @@
 	margin: auto;
 	border: none;
 }
+
+#carouselControl{
+    height: 450px;
+}
+
+#d-block, #d-block1, #d-block2{
+    height: 450px;
+}
+
 .detailText{
     display: flex;
     justify-content: flex-end;
@@ -81,18 +106,7 @@
 #demand{
     height: 150px;
 }
-#sectionPart{
-    margin-top: 200px;
-    margin-bottom: 50px;
-    background: white;
-    padding: 10px;
-}
-#contact{
-    height: 30px;
-    font-family: 'cuprumregular';
-    background: #73bcb7;
-    color: white;
-}
+
 #filmsAuteurs{
     border: 1px solid rgba(128, 128, 128, 0.3);
     margin-bottom: 20px;
@@ -105,7 +119,6 @@
 }
 #footerPart{
     background: #f31a22;
-    height: 205px;
 }
 #form{
         border: 1px solid rgba(128, 128, 128, 0.3);
@@ -134,6 +147,30 @@
     align-items: baseline;
     padding-top: 30px;
 }
+
+#headTopActu{
+    background: rgba(115, 188, 183, 0.5);
+}
+
+#logo{
+    width: 250px;
+    height: 110px;
+    margin-left: 30px;
+}
+
+#logoIcon{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 120px;
+}
+
+#map{
+    border: 1px solid rgba(128, 128, 128, 0.3);
+    font-family: 'cuprumregular';
+    padding: 10px;
+}
+
 #map h4{
     position: absolute;
     top:-22px;
@@ -141,21 +178,47 @@
     left:10px;
     padding:0 10px;
 }
+
+#menuhamburger{
+    font-family: 'cuprumregular';
+    font-color: white;
+}
+
+#menuText{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'cuprumregular';
+    font-size: 15px;
+}
+
+#menuPrinc{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: rgba(115, 188, 183, 0.5);
+    position: absolute;
+    top: 30px;
+    right:0px;
+}
+.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+    margin-left:0;
+    margin-right:0;
+}
+.newsletter{
+    padding: 20px;
+}
+
 #phoneAdress{
     display: flex;
     flex-direction: row;
     background: #73bcb7;
     justify-content: left;
     height: 30px;
-}
-
-#spancontact1{
-    display: flex;
-    flex-direction: row;
-    font-size: 11px;
-    letter-spacing: 1px;
-    align-items: center;
-    justify-content: left;
 }
 #phoneIcon{
     width: 15px;
@@ -172,6 +235,7 @@
     font-family: 'cuprumregular';
     padding: 20px;
 }
+
 .programmation{
     display: flex;
     flex-direction: column;
@@ -182,19 +246,87 @@
     border: 1px solid rgba(128, 128, 128, 0.3);
     font-family: 'cuprumregular';
 }
-#map{
-    border: 1px solid rgba(128, 128, 128, 0.3);
-    font-family: 'cuprumregular';
+
+#picArt{
     padding: 10px;
 }
+
+#picPres{
+    width: 430px;
+    height: 200px;
+    margin: 10px 10px 10px 0px;
+}
+
+.picProg{
+    padding: 5px;
+}
+
+.picSel{
+    width: 125px;
+    padding: 10px;
+}
+
+#positionNav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.positionHum{
+    border: none;
+    width: 50%;
+}
+
+#positionNav a{
+    color: white;
+    font-size: 11px;
+    letter-spacing: 2px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+#positionNav a:hover{
+    color: black;
+    font-size: 18px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+#sectionPartIndex{
+    margin-top: 40px;
+    margin-bottom: 50px;
+    background: white;
+    padding: 10px;
+}
+
+#sectionPart{
+    margin-top: 300px;
+    margin-bottom: 50px;
+    background: white;
+    padding: 10px;
+}
+
+#spancontact1{
+    display: flex;
+    flex-direction: row;
+    font-size: 11px;
+    letter-spacing: 1px;
+    align-items: center;
+    justify-content: left;
+}
+
 #searchBarIcon{
     width: 150px;
     height: 25px;
 }
+
 #searchBar{
     background: #73bcb7;
     height: 30px;
 }
+
 #selection{
     border: 1px solid rgba(128, 128, 128, 0.3);
     margin-bottom: 20px;
@@ -202,24 +334,10 @@
     padding: 10px;
     font-family: 'cuprumregular';
 }
+
 #slide{
     width: 100%;
     height: 450px;
-}
-.no-gutter > [class*='col-'] {
-    padding-right:0;
-    padding-left:0;
-    margin-left:0;
-    margin-right:0;
-}
-#logo{
-    width: 250px;
-    height: 110px;
-    margin-left: 30px;
-}
-
-#headTopActu{
-    background: rgba(115, 188, 183, 0.5);
 }
 
 #titlepic, #titlepic2, #titlepic3{
@@ -233,84 +351,10 @@
     font-family: 'cuprumregular';
     color: white;
 }
-#menuhamburger{
-    font-family: 'cuprumregular';
-    font-color: white;
-}
-#positionNav a{
-    color: white;
-    font-size: 11px;
-    letter-spacing: 2px;
-    padding-left: 16px;
-    padding-right: 16px;
-}
-#positionNav a:hover{
-    color: black;
-    font-size: 18px;
-    padding-left: 16px;
-    padding-right: 16px;
-}
-#menuPrinc{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background: rgba(115, 188, 183, 0.5);
-    position: absolute;
-    top: 30px;
-    right:0px;
-}
-#logoIcon{
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    height: 120px;
-}
-#carouselControl{
-    height: 450px;
-}
-#d-block, #d-block1, #d-block2{
-    height: 450px;
-}
-#menuText{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-family: 'cuprumregular';
-    font-size: 15px;
-}
 
-#picArt{
-    padding: 10px;
-}
-#picPres{
-    width: 430px;
-    height: 200px;
-    margin: 10px 10px 10px 0px;
-}
-.picProg{
-    padding: 5px;
-}
-.picSel{
-    width: 125px;
-    padding: 10px;
-}
-#positionNav{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-}
-.positionHum{
-    border: none;
-    width: 50%;
-}
 
-#borderBtn{
-    border: none;
-}
+
+
 
 @media screen and (max-width: 1200px){
     #phoneAdress{
